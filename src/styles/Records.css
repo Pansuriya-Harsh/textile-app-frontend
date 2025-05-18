@@ -1,0 +1,166 @@
+.records-dashboard {
+  padding: 1rem;
+  padding-top: 0;
+  color: #fff;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.records-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.header-actions .btn-primary {
+  background-color: #7b5cff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-actions .btn-back {
+  background-color: #333;
+  color: #ccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.records-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+.records-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.records-table th,
+.records-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+.records-table th {
+  background-color: #222;
+  color: #aaa;
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 0.5rem;
+  color: #7b5cff;
+}
+
+.icon:hover {
+  color: #9f8bff;
+}
+
+.icon.delete {
+  color: #ff5c5c;
+}
+
+.icon.delete:hover {
+  color: #ff3d3d;
+}
+
+.search-container {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.search-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 1rem;
+}
+
+.input-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items:center;
+}
+
+.search-fields {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+  width: 60%;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #cbd5e1;
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1f2937;
+  color: white;
+  border: 1px solid #334155;
+  width: 90%;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btn-reset,
+.btn-search {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+.btn-reset {
+  background-color: #334155;
+  color: #e2e8f0;
+}
+
+.btn-search {
+  background-color: #3b82f6;
+  color: white;
+}
